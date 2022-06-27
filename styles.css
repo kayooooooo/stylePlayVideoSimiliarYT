@@ -1,0 +1,41 @@
+.youtube-player {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+.youtube-player img {
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  width: 100%;
+  position: relative;
+  border: none;
+  height: auto;
+  cursor: pointer;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.youtube-player img:hover {
+  -webkit-filter: brightness(75%);
+  -moz-filter: brightness(75%);
+  filter: brightness(75%);
+}
+
+.youtube-player .play {
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+   background: url("https://1.bp.blogspot.com/-9WM7CTGFE6w/YEIY4yiXrSI/AAAAAAAAKLA/KQ9KQqUFQ-omzPDInJqiorJHHIVvrSu2QCNcBGAsYHQ/s16000/play-button.png") no-repeat;
+  cursor: pointer;
+}
