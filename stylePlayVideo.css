@@ -6,8 +6,6 @@
     margin: 0;
     padding: 0;
 }
-
-
 .youtube-player img {
   object-fit: cover;
   display: block;
@@ -21,13 +19,11 @@
   -moz-transition: 0.4s all;
   transition: 0.4s all;
 }
-
 .youtube-player img:hover {
   -webkit-filter: brightness(75%);
   -moz-filter: brightness(75%);
   filter: brightness(75%);
 }
-
 .youtube-player .play {
   height: 72px;
   width: 72px;
